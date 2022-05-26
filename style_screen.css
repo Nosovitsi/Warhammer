@@ -1,0 +1,712 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+p {
+    font-family: 'Mason Chronicles';
+    text-indent: 20px;
+}
+
+.death {
+    min-height: 80vh;
+    margin: 0 auto;
+    width: 100%;
+    background-image: url("Media/Death_2.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/* Глава I --------------------------------------------------------------- */
+
+.main {
+    min-height: 100vh;
+    margin: 0 auto;
+    width: 100%;
+    background-image: url("Media/introduction.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.container {
+    padding-top: 0.1px;
+}
+
+.title {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 60px;
+    box-shadow: 0px 5px 10px 6px rgba(29, 37, 44, 0.55);
+    margin-top: 20px;
+    width: 100%;
+    font-size: 19px;
+}
+
+.title img {
+    width: 50px;
+}
+
+.Sl {
+    transform: scale(1, 1);
+}
+
+.Sl:hover {
+    transition: all 1.2s ease 0s;
+    transform: scale(1.5, 1.5);
+}
+
+.Ul {
+    transform: scale(1, 1);
+}
+
+.Ul:hover {
+    transition: all 1.2s ease 0s;
+    transform: scale(1.5, 1.5);
+}
+
+.Ba {
+    transform: scale(1, 1);
+}
+
+.Ba:hover {
+    transition: all 1.2s ease 0s;
+    transform: scale(1.5, 1.5);
+}
+
+.Ia {
+    transform: scale(1, 1);
+}
+
+.Ia:hover {
+    transition: all 1.2s ease 0s;
+    transform: scale(1.5, 1.5);
+}
+
+.Ih {
+    transform: scale(1, 1);
+}
+
+.Ih:hover {
+    transition: all 1.2s ease 0s;
+    transform: scale(1.5, 1.5);
+}
+
+.Rg {
+    transform: scale(1, 1);
+}
+
+.Rg:hover {
+    transition: all 1.2s ease 0s;
+    transform: scale(1.5, 1.5);
+}
+
+.Ws {
+    transform: scale(1, 1);
+}
+
+.Ws:hover {
+    transition: all 1.2s ease 0s;
+    transform: scale(1.5, 1.5);
+}
+
+.Sw {
+    transform: scale(1, 1);
+}
+
+.Sw:hover {
+    transition: all 1.2s ease 0s;
+    transform: scale(1.5, 1.5);
+}
+
+.Da {
+    transform: scale(1, 1);
+}
+
+.Da:hover {
+    transition: all 1.2s ease 0s;
+    transform: scale(1.5, 1.5);
+}
+
+.Tr {
+    transform: scale(1, 1);
+}
+
+.Tr:hover {
+    transition: all 1.2s ease 0s;
+    transform: scale(1.5, 1.5);
+}
+
+.between {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 30px;
+}
+
+.Captain {
+    width: 40%;
+}
+
+.Captain img {
+    width: 260px;
+}
+
+.text {
+    margin: 0 auto;
+    padding: 10px 20px 10px;
+    font-size: 18px;
+    width: 80%;
+}
+
+.text_center {
+    padding: 10px 20px 10px;
+    font-size: 18px;
+}
+
+.Adeptus {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 60px;
+    box-shadow: 0px 5px 10px 6px rgba(29, 37, 44, 0.55);
+    padding: 3px;
+    width: 80%;
+}
+
+.Templar {
+    float: right;
+    width: 195px;
+    shape-outside: polygon(61.29% -4.56%, 102.31% 98.65%, 27.56% 99.09%, 46.02% 55.28%, 14.61% 62.74%);
+}
+
+.comment {
+    font-size: 20px;
+    font-family: 'Amatic SC', sans-serif;
+}
+
+.comment:hover {
+    transition: all 0.4s linear;
+    font-size: 22px;
+}
+
+.word {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.word p {
+    text-indent: 0;
+}
+
+.History {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 60px;
+    box-shadow: 0px 5px 10px 6px rgba(29, 37, 44, 0.55);
+    padding: 3px;
+    width: 100%;
+}
+
+.Icon {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Icon img {
+    width: 120px;
+}
+
+
+/*  Раздел --------------------------------------------------------------- */
+
+.screen {
+    min-height: 60vh;
+    margin: 0 auto;
+    background-image: url("Media/Introduction-artwork-v3-1.jpg");
+    box-shadow: 0px 5px 12px 5px rgba(0, 0, 0, 0.6);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    border: 10px solid;
+    border-image: url("Media/ramka.png") 35 round;
+    width: 100%;
+}
+
+
+/*  Раздел --------------------------------------------------------------- */
+
+
+/* Глава II --------------------------------------------------------------- */
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.logo img {
+    width: 150px;
+}
+
+.Organization_Structure {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 60px;
+    box-shadow: 0px 5px 10px 6px rgba(29, 37, 44, 0.55);
+    padding: 3px;
+    width: 100%;
+}
+
+.Chaplain {
+    float: left;
+    width: 240px;
+    shape-outside: polygon(64.21% -4.56%, 98.15% 95.88%, 16.73% 97.36%, 42.69% 49.73%, 2.94% 65.17%);
+}
+
+.Tactical_Organization {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 60px;
+    box-shadow: 0px 5px 10px 6px rgba(29, 37, 44, 0.55);
+    padding: 3px;
+    width: 80%;
+}
+
+.Techmarine {
+    float: right;
+    width: 260px;
+    shape-outside: polygon(98.06% 26.09%, 88.53% 97.04%, 16.73% 97.36%, 32.69% 70.68%, 3.71% 17.07%);
+}
+
+.abbadon {
+    color: brown;
+}
+
+
+/*  Раздел --------------------------------------------------------------- */
+
+.screen_2 {
+    height: 60vh;
+    background-image: url("Media/Abbadon.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    border-top: 5px black solid;
+    border-bottom: 5px black solid;
+    box-shadow: 0px 5px 10px 6px rgba(0, 0, 0, 0.7);
+    border: 10px solid;
+    border-image: url("Media/ramka.png") 35 round;
+    width: 100%;
+}
+
+
+/*  Раздел --------------------------------------------------------------- */
+
+
+/* Глава III ---------------------------------------------------------------
+*/
+
+.Specical_Forces {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 60px;
+    box-shadow: 0px 5px 10px 6px rgba(29, 37, 44, 0.55);
+    padding: 3px;
+    width: 100%;
+}
+
+.main3 {
+    min-height: 80vh;
+    margin: 0 auto;
+    width: 100%;
+    background-image: url("Media/Death_3.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.dop {
+    min-height: 80vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.3);
+    box-shadow: 0px 5px 10px 5px rgba(29, 37, 44, 0.8);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+}
+
+.Army {
+    display: flex;
+    justify-content: center;
+}
+
+.Army img {
+    width: 500px;
+}
+
+.Boss {
+    width: 30%;
+}
+
+.Boss img {
+    width: 350px;
+}
+
+.Spacemarine_Primaris {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 60px;
+    box-shadow: 0px 5px 10px 6px rgba(29, 37, 44, 0.55);
+    padding: 3px;
+    width: 70%;
+}
+
+.Chaplain_on_bike {
+    float: left;
+    width: 300px;
+    shape-outside: polygon(77.73% 45.14%, 97.53% 98.10%, 14.06% 98.07%, 6.36% 49.16%, 44.04% -0.57%, 47.34% 34.19%);
+}
+
+
+/*  Раздел --------------------------------------------------------------- */
+
+.screen_3 {
+    min-height: 120vh;
+    /* margin: 0 auto; */
+    background-image: url("Media/map_war.jpg");
+    box-shadow: 0px 5px 12px 5px rgba(0, 0, 0, 0.6);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    border: 10px solid;
+    border-image: url("Media/ramka.png") 35 round;
+    width: 100%;
+}
+
+.screen_3 img {
+    width: 50px;
+}
+
+
+/*  Раздел --------------------------------------------------------------- */
+
+.last_word {
+    display: flex;
+    justify-content: center;
+}
+
+.Game {
+    display: flex;
+    justify-content: center;
+}
+
+.Game img {
+    width: 550px;
+}
+
+.text_small {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 18px;
+}
+
+
+/* 1100 */
+
+@media screen and (max-width: 1100px) {
+    p {
+        font-family: 'Mason Chronicles';
+        text-indent: 15px;
+    }
+    .death {
+        min-height: 60vh;
+    }
+    /* Глава I */
+    .Cosmo {
+        display: none;
+    }
+    .text {
+        padding: 5px 15px 5px;
+        font-size: 16px;
+        width: 100%;
+    }
+    .text_center {
+        font-size: 16px;
+        width: 100%;
+    }
+    .Captain img {
+        width: 200px;
+    }
+    .Templar {
+        width: 145px;
+    }
+    .comment {
+        font-size: 19px;
+        font-family: 'Amatic SC', sans-serif;
+    }
+    .comment:hover {
+        transition: all 0.8s linear;
+        font-size: 20px;
+    }
+    .word {
+        font-size: 20px;
+    }
+    .Icon {
+        display: flex;
+        justify-content: center;
+    }
+    .Icon img {
+        width: 100px;
+    }
+    .screen {
+        min-height: 50vh;
+    }
+    /* Глава II */
+    .logo {
+        display: flex;
+        justify-content: center;
+    }
+    .logo img {
+        width: 130px;
+    }
+    .Chaplain {
+        width: 190px;
+    }
+    .Techmarine {
+        width: 190px;
+    }
+    /*  Раздел --------------------------------------------------------------- */
+    .screen_2 {
+        min-height: 50vh;
+        background-attachment: local;
+        background-position: right center;
+    }
+    /*  Раздел --------------------------------------------------------------- */
+    /* Глава III */
+    .main3 {
+        min-height: 80vh;
+    }
+    .Army img {
+        width: 400px;
+    }
+    .Boss img {
+        width: 300px;
+    }
+    .Spacemarine_Primaris {
+        width: 90%;
+    }
+    .Chaplain_on_bike {
+        width: 250px
+    }
+    /*  Раздел --------------------------------------------------------------- */
+    .screen_3 {
+        min-height: 50vh;
+        background-attachment: local;
+        background-position: center;
+    }
+    /*  Раздел --------------------------------------------------------------- */
+}
+
+
+/* 800 */
+
+@media screen and (max-width: 800px) {
+    p {
+        font-family: 'Mason Chronicles';
+        text-indent: 10px;
+    }
+    .death {
+        min-height: 40vh;
+        margin: 0 auto;
+        background-image: url("Media/Death_2.gif");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    /* Глава I */
+    .main {
+        min-height: 100vh;
+        margin: 0 auto;
+        width: 100%;
+        background-image: url("Media/introduction.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .Cosmo {
+        display: none;
+    }
+    .title {
+        width: 100%;
+    }
+    .title img {
+        width: 40px;
+    }
+    .between {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        padding-top: 20px;
+    }
+    .Captain {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .Captain img {
+        width: 200px;
+    }
+    .text {
+        font-size: 15px;
+    }
+    .text_center {
+        font-size: 15px;
+    }
+    .comment {
+        font-size: 17px;
+    }
+    .comment:hover {
+        transition: all 0.8s linear;
+        font-size: 18px;
+    }
+    .Tactical_Organization {
+        width: 90%;
+    }
+    .word {
+        display: flex;
+        justify-content: center;
+        font-size: 18px;
+    }
+    .Icon img {
+        width: 80px;
+    }
+    .screen {
+        min-height: 40vh;
+        background-attachment: local;
+        background-position: center center;
+        border: 10px solid;
+        border-image: url("Media/ramka.png") 35 repeat;
+    }
+    /* Глава II */
+    .logo {
+        display: flex;
+        justify-content: center;
+    }
+    .logo img {
+        width: 110px;
+    }
+    .screen_2 {
+        min-height: 40vh;
+        border-image: url("Media/ramka.png") 35 repeat;
+    }
+    /* Глава III */
+    .main3 {
+        min-height: 40vh;
+        margin: 0 auto;
+        width: 100%;
+        background-image: url("Media/Death_2.gif");
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .dop {
+        min-height: 50vh;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: rgba(255, 255, 255, 0.3);
+        box-shadow: 0px 5px 10px 5px rgba(29, 37, 44, 0.8);
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 10px;
+    }
+    .Army img {
+        width: 300px;
+    }
+    .Boss {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        width: 100%;
+    }
+    .Boss img {
+        width: 250px;
+    }
+    .Spacemarine_Primaris {
+        width: 100%;
+    }
+    .Chaplain_on_bike {
+        width: 220px
+    }
+    .last_word {
+        flex-direction: column;
+        width: 100%;
+    }
+    .Game {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .Game img {
+        width: 300px;
+    }
+    .text_small {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding-left: 35%;
+        padding-right: 35%;
+    }
+    .screen_3 {
+        height: 85vh;
+        background-position: left center;
+        border-image: url("Media/ramka.png") 35 repeat;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    /* Глава I */
+    .main {
+        min-height: 80vh;
+        margin: 0 auto;
+        width: 100%;
+        background-image: url("Media/short.jpg");
+        background-size: contain;
+        background-repeat: repeat;
+        background-attachment: scroll;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    /* Глава II */
+    /* Глава III */
+    .main3 {
+        height: 50vh;
+        margin: 0 auto;
+        background-image: url("Media/Death_2.gif");
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
